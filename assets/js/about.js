@@ -38,7 +38,7 @@ $(document).ready(function()  {
     $("#circle1").delay(200);
     $("#circle2").delay(800);
     $(".bubble").delay(1400);
-    let interests = "More than anything, even though it sounds corny, I love to learn \
+    let interests = "More than anything, even though it sounds corny, I love to learn. \
                      I have a genuine passion for my education. Other than that, I love to \
                      watch TV, whether its binge watching Game of Thrones or rewatching the Office, \
                      and dance."
