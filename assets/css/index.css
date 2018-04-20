@@ -1,0 +1,167 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin:0;
+  overflow: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.holder {
+  height: 100%;
+  display: grid;
+  grid-template-areas: "sidebar content";
+  grid-template-columns: 30% 70%;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  margin: 0;
+  height: 100%;
+  background-color: #D8DAD3;
+  text-align: center;
+}
+
+.lightbulb {
+  height: 200px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+    max-width: 280px;
+    max-height: 450px;
+}
+
+.title {
+   font-size: 40px;
+    font-family: 'Eczar', serif;
+}
+
+.subtitles {
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.content {
+  grid-area: content;
+  margin: 0;
+  height: 100%;
+}
+
+
+.button_holder {
+  position: relative;
+  top: 50%;
+  height: 30%;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.button {
+  height: inherit;
+  width: 150px;
+  float: left;
+  margin-left: 30px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+  background: white;
+}
+
+#computer {
+  position: absolute;
+  z-index: -1;
+  transform: scale(2) rotate(20deg);
+  right: 9%;
+  top: 9%;
+}
+
+#coffee {
+  position: absolute;
+  transform: scale(.4) rotate(20deg);
+  top: -4%;
+  right: 28%;
+}
+
+#phone {
+  position: absolute;
+  transform: scale(.3) rotate(20deg);
+  top: 6%;
+  right: -6%;
+}
+
+#headphones {
+  position: absolute;
+  z-index: -1;
+  transform: scale(1.5) rotate(345deg);
+  bottom: 5%;
+  left: 30%;
+  filter: brightness(90%) saturate(80%);
+}
+
+#glasses {
+  position: absolute;
+  z-index: -1;
+  transform: scale(.5) rotate(15deg);
+  bottom: 17%;
+  left: 43%;
+  filter: brightness(90%) saturate(80%);
+}
+
+#pen {
+  position: absolute;
+  z-index: 0;
+  transform: scale(.5) rotate(70deg);
+  bottom: -15%;
+  left: 42%;
+}
+
+#watch {
+  position: absolute;
+  z-index: -1;
+  transform: scale(.7) rotate(-15deg);
+  bottom: -8%;
+  left: 32%;
+}
+
+@media (max-width: 1065px) {
+
+  .button_holder {
+    position: absolute;
+    width: inherit;
+    left: 55%;
+  }
+  #r {
+    position: absolute;
+    top: -90%
+  }
+
+  #a {
+    position: absolute;
+    top: -30%;
+  }
+
+  #c {
+    position: absolute;
+    top: 30%;
+  }
+
+  #p {
+    position: absolute;
+    top: 90%;
+  }
+}
