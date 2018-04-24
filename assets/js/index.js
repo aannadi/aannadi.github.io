@@ -2,24 +2,24 @@ $(document).ready(function()  {
   $('.subtitles').typeIt({
 });
 
-  $('#r').delay(3800);
-  $('#headphones').delay(3800);
-  $('#watch').delay(3800);
+  $('#r').delay(4000);
+  $('#headphones').delay(4000);
+  $('#watch').delay(4000);
 
 
 
-  $('#pen').delay(3800);
-  $('#glasses').delay(3800);
-  $('#a').delay(3800);
+  $('#pen').delay(4000);
+  $('#glasses').delay(4000);
+  $('#a').delay(4000);
 
 
-  $('#coffee').delay(3800);
+  $('#coffee').delay(4000);
 
-  $('#c').delay(3800);
-  $('#computer').delay(3800);
+  $('#c').delay(4000);
+  $('#computer').delay(4000);
 
-  $('#p').delay(3800);
-  $('#phone').delay(3800);
+  $('#p').delay(4000);
+  $('#phone').delay(4000);
 
   $('#r').fadeIn(3000)
   $('#headphones').fadeIn(3000)
