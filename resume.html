@@ -1,13 +1,52 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="assets/css/resume.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/output.css"/>
   <link href="https://fonts.googleapis.com/css?family=Eczar|Quicksand" rel="stylesheet">
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="assets/js/resume.js"></script>
+  <script type="text/javascript" src="assets/js/construction.js"></script>
 </head>
 <body>
    <div class="sidebar">
-      <div class="lighbulb"><img src=assets/img/lightbulb.png></div>
+     <div class="container">
+             <div class = "string"> </div>
+             <div class="fancy-bulb">
+             <div class="left-streaks streaks"></div>
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 275.3 413.3" enable-background="new 0 0 275.3 413.3" xml:space="preserve">
+           <g id="off">
+             <path fill="#E2ECF1" d="M137.7,13.7C67.2,13.7,10,70.9,10,141.4c0,58.3,72.8,118.2,79.9,162.3h47.8h47.8
+               c7.1-44,79.9-103.9,79.9-162.3C265.3,70.9,208.2,13.7,137.7,13.7z"/>
+           </g>
+             <g id="on">
+             <path fill="#FFDB55" d="M137.7,13.7C67.2,13.7,10,70.9,10,141.4c0,58.3,72.8,118.2,79.9,162.3h47.8h47.8
+               c7.1-44,79.9-103.9,79.9-162.3C265.3,70.9,208.2,13.7,137.7,13.7z"/>
+
+           </g>
+
+           <g id="outline">
+             <path fill="#F1F2F2" stroke="#38434A" stroke-width="19.1022" stroke-miterlimit="10" d="M168.5,375.5h-61.7c-8.9,0-16-7.2-16-16
+               v-55.8h93.8v55.8C184.6,368.3,177.4,375.5,168.5,375.5z"/>
+             <path fill="#F1F2F2" stroke="#38434A" stroke-width="19.1022" stroke-miterlimit="10" d="M151.2,401.5h-27.1c-3.9,0-7-3.2-7-7v-19
+               h41.1v19C158.2,398.4,155.1,401.5,151.2,401.5z"/>
+             <line fill="none" stroke="#38434A" stroke-width="19.1022" stroke-miterlimit="10" x1="184.6" y1="339.6" x2="90.8" y2="339.6"/>
+             <path fill="none" stroke="#38434A" stroke-width="19.1022" stroke-miterlimit="10" d="M137.7,13.7C67.2,13.7,10,70.9,10,141.4
+               c0,58.3,72.8,118.2,79.9,162.3h47.8h47.8c7.1-44,79.9-103.9,79.9-162.3C265.3,70.9,208.2,13.7,137.7,13.7z"/>
+           </g>
+           <!-- <g id="highlight">
+             <path fill="#FFDB55" stroke="#FFFFFF" stroke-width="21.0124" stroke-linecap="round" stroke-miterlimit="10" d="M207.1,89.5
+               c-12.3-16.1-28.4-29.1-46.9-37.8"/>
+             <path fill="#FFDB55" stroke="#FFFFFF" stroke-width="21.0124" stroke-linecap="round" stroke-miterlimit="10" d="M225,121.4
+               c-0.8-2.2-1.8-4.4-2.7-6.5"/>
+           </g> -->
+           </svg>
+           <div class="right-streaks streaks"></div>
+
+
+           </div>
+
+     </div>
       <div class="title" style ="display:none;"> Resume</div>
       <div class="subtitles" id ="exp_sub" style ="display:none;"> experience </div>
       <div class="subtitles" id = "ed_sub" style ="display:none;"> education </div>
@@ -18,36 +57,62 @@
     <div class ="item" id="exp_item">
       <div class="title f"> experience </div>
       <div class ="subitem">
+        <div class="description2">
+            <div class = "h"> Bottles Tonight </div>
+            <div class = "p"> May 2018 - Aug 2018 </div>
+            <div class = "a"> Used React.js to help further develop a web application that allowed users to make and manage reservations at events and clubs around the world. <ul>
+              <li> Designed and implemented the reservation flow on the customer application using redux state management </li>
+              <li> Created a portal for club hosts and venue partners to manage customer reservations </li>
+              <li> Helped design HTTP requests to manage data transfer to client-side app  </li>
+            </ul></div>
+        </div>
+        <img class= "bottle" src=assets/img/bottle.png>
+      </div>
+      <hr>
+      <div class ="subitem">
         <div class="description1">
-            <div class = "h"> SaRA-Health </div>
-            <div class = "a"> Worked within the Flask microframework to
-                  develop the front end and back end features of the SaRA web
-                  application, which provides a platform for patients to connect
-                  to their physical therapist outside of appointments.</div>
+            <div class = "h"> SaRA Health </div>
+            <div class = "p"> Feb 2018 - May 2018 </div>
+            <div class = "a"> Used Flask to develop the SaRA web application, which provides a platform for patients to connect to their physical therapist outside of appointments. <ul>
+              <li> Worked to implement the therapist portal to assign exercises and manage patients </li>
+              <li> Participated in a development cycle with thorough bug fixing, testing, and code review </li>
+              <li> Implemented customer engagement features for patients to interact with their therapists including text reminders
+ </li>
+            </ul></div>
         </div>
         <img class= "dumbell" src=assets/img/health.png>
       </div>
       <hr>
       <div class ="subitem">
-        <div class="description2">
+        <div class="description3">
             <div class = "h"> Molecular Cell Biomechanics Laboratory, UC Berkeley </div>
+            <div class = "p"> Sept 2017 - Dec 2017 </div>
             <div class = "a"> Used computational, protein modeling software and bash scripts
               to investigate the role of mutation of the "Gle1" protein in human
               disease LCCS1 in a self-led project</div>
         </div>
         <img class= "dumbell2" src=assets/img/dna.png>
       </div>
+
     </div>
     <div class ="item" id = "ed_item" style = "height:400px;">
       <div class="title f"> education </div>
       <div class ="subitem" id="eddd">
-        <div class="description1" style = "width: 40%;">
-            <div class = "h"> UC Berkeley </div>
+        <div class="description4" style = "width: 45%;">
+            <div class = "h" style = "margin-left: -15%;"> UC Berkeley </div>
+            <div class = "p" style = "margin-left: -15%;"> Electrical Engineering and Computer Science, GPA: 3.957 </div>
             <div class = "a" style = "margin-left: -15%;">
-              <ul>
-                 <li> Technical GPA-4.0, Cumulative GPA-3.92 </li>
-                 <li>Fall 2017-CS 61A(The Structure and Interpretation of Computer Programs), Math 53(Multivariable Calculus) </li>
-                 <li>  Spring 2018-CS 61B(Data Structures and Algorithms), Math 54(Linear Algebra and Differential Equations), Blockchain Fundamentals, Web Design </li>
+              Relevant Coursework:
+              <ul style = "margin-top: 0%; text-align: left">
+                <li>  Data Structures and Algorithms </li>
+                 <li>The Structure and Interpretation of Computer Programs </li>
+                 <li> Web Design</li>
+                 <li> Discrete Mathematics and Probability Theory</li>
+                   <li>  Multivariable Calculus </li>
+                <li> Linear Algebra and Differential Equations</li>
+                <li>  Blockchain Fundamentals</li>
+
+
               </ul>
             </div>
         </div>
@@ -59,33 +124,35 @@
       <div class ="subitem1">
         <div class="description">
 
-            <div class = "h g front_end"> Front End</div>
+            <div class = "h g front_end"> Languages</div>
             <div class = "a s front_end"> <ul>
-              <li> HTML </li>
-              <li> CSS/Materialize </li>
-              <li> Javascript </li>
-            </ul></div>
-
-            <div class = "h g back_end"> Back End</div>
-            <div class = "a s back_end"> <ul>
+              <li> HTML/CSS </li>
               <li> Python </li>
               <li> Java </li>
+              <li> Javascript </li>
               <li> SQL </li>
-              <li> Frameworks: Flask </li>
             </ul></div>
 
-            <div class = "h g languages"> Languages</div>
+            <div class = "h g back_end"> Frameworks</div>
+            <div class = "a s back_end"> <ul>
+              <li> React.js </li>
+              <li> Flask </li>
+              <li> Redux </li>
+            </ul></div>
+
+            <div class = "h g languages"> Development</div>
             <div class = "a s languages"> <ul>
-              <li> English </li>
-              <li> Spanish </li>
-              <li> Telugu </li>
+              <li> Web Design </li>
+              <li> Software Development Cycle </li>
+              <li>Product Design</li>
+              <li>Data Structures</li>
             </ul></div>
 
-            <div class = "h g soft_skills"> Soft Skills</div>
+            <div class = "h g soft_skills"> Miscellaneous</div>
             <div class = "a s soft_skills"> <ul>
-              <li> Time Management </li>
-              <li> Confidence </li>
-              <li> Dedication </li>
+              <li> Git </li>
+              <li> Latex </li>
+              <li> Mathematical Analysis </li>
             </ul></div>
 
 

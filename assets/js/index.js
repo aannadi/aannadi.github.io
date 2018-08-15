@@ -1,6 +1,11 @@
 $(document).ready(function()  {
   $('.subtitles').typeIt({
 });
+  setTimeout(function()
+  {
+      $("body").toggleClass("active");
+  },
+  4500);
 
 
 $('.sidebar').delay(5000);
