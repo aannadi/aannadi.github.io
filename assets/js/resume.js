@@ -1,6 +1,7 @@
 $(document).ready(function()  {
   $('.title').fadeIn(600);
   $('.subtitles').fadeIn(900);
+  $('.sublink').fadeIn(900);
   $('.content').fadeIn(1200);
   $("#circle1").css("background-color", "#D8DAD3")
   $('.back_end').hide();
