@@ -12,18 +12,17 @@ $(document).ready(function()  {
   $(".bubble").fadeIn(700);
 
 
-  $("#background").click(function() {
+  $("#I").click(function() {
     $(".bubble").hide();
     $("#circle1").hide();
     $("#circle2").hide();
     $("#circle1").delay(200);
     $("#circle2").delay(800);
     $(".bubble").delay(1400);
-    let background = "I was born in Sunnyvale, and grew up in Dublin, California.\
-                      Most of my family lives in India in Hyderabad \
-                      where my parents immigrated from 20 years ago. \
-                      I now go to the University of California, Berkeley where \
-                      I am pursuing a degree in Electrical Engineering and Computer Science."
+    let background = "I’m a second year Electrical Engineering and Computer Science student at  \
+                      UC Berkeley. I’ve had the honor of living in the Bay Area my whole life and \
+                      am excited to pursue my higher education at Berkeley. I have always loved to \
+                      learn and the environment here at Berkeley is great for fostering that passion!"
     $(".text").text(background); // jQuery Function Number 6
     $(".text").css("top", "32%");
     $("#circle1").fadeIn(600);
@@ -31,38 +30,59 @@ $(document).ready(function()  {
     $(".bubble").fadeIn(600);
   })
 
-  $("#interests").click(function() {
+  $("#II").click(function() {
     $(".bubble").hide();
     $("#circle1").hide();
     $("#circle2").hide();
     $("#circle1").delay(200);
     $("#circle2").delay(800);
     $(".bubble").delay(1400);
-    let interests = "More than anything, even though it sounds corny, I love to learn. \
-                     I have a genuine passion for my education. Other than that, I love to \
-                     watch TV, whether its binge watching Game of Thrones or rewatching the Office, \
-                     and dance."
+    let interests = "Outside of academics and programming, my greatest joys are going out with family and \
+                    friends and watching T.V. I always love to have a good time and continuing to explore \
+                     the Bay Area is one of my favorite ways to have fun. From a young age, I’ve used \
+                     television and other media as a way to relax and you can always catch me binging \
+                     one show or the other."
     $(".text").text(interests);
-    $(".text").css("top", "35%");
+    $(".text").css("top", "28%");
     $("#circle1").fadeIn(600);
     $("#circle2").fadeIn(600);
     $(".bubble").fadeIn(600);
 
   })
 
-  $("#hobbies").click(function() {
+  $("#III").click(function() {
     $(".bubble").hide();
     $("#circle1").hide();
     $("#circle2").hide();
     $("#circle1").delay(200);
     $("#circle2").delay(800);
     $(".bubble").delay(1400);
-    let hobbies = "My main hobby is my personal fitness. I love going to the gym and even \
-                   more than that, I have found a real love for fitness classes like Zumba. \
-                   I also love to watch Bollywood movies in my spare time and go to SF/explore \
-                   the Bay Area!"
+    let hobbies = "I’m a caring person and a good friend. I always try to help out where \
+                  I can and am a good listener. I would say my one big drawback is \
+                  at times I can be a little standoffish and snarky but those occasions are \
+                  rare! More often than not, you’ll find me smiling and laughing."
     $(".text").text(hobbies);
     $(".text").css("top", "34%");
+    $("#circle1").fadeIn(600);
+    $("#circle2").fadeIn(600);
+    $(".bubble").fadeIn(600);
+
+  })
+
+  $("#IV").click(function() {
+    $(".bubble").hide();
+    $("#circle1").hide();
+    $("#circle2").hide();
+    $("#circle1").delay(200);
+    $("#circle2").delay(800);
+    $(".bubble").delay(1400);
+    let hobbies = "I love computer science and programming and I hope to explore the many areas \
+                  of the field, whether it be industry or research, in the coming years of my \
+                  career. However, down the line, I hope to join or start a nonprofit that uses \
+                  some application for computer science for social good. Don’t hesitate to contact \
+                  me if you want to work with me, have any questions, or just want to grab lunch!"
+    $(".text").text(hobbies);
+    $(".text").css("top", "29%");
     $("#circle1").fadeIn(600);
     $("#circle2").fadeIn(600);
     $(".bubble").fadeIn(600);
