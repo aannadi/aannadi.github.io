@@ -155,3 +155,15 @@ img {
 
 
 }
+
+.home {
+position: absolute;
+top: 10px;
+font-size: 30px;
+left: 10px;
+}
+
+.back-arrow {
+    width: 40px;
+    height: auto;
+}
