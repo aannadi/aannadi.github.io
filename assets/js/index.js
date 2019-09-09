@@ -1,35 +1,33 @@
 $(document).ready(function()  {
-  $('.subtitles').typeIt({
-});
   setTimeout(function()
   {
       $("body").toggleClass("active");
   },
-  4500);
+  500);
 
 
-$('.sidebar').delay(5000);
+$('.sidebar').delay(1500);
 $('.sidebar').animate({width: '100%'}, 3000);
 
 
-  $('#r').delay(5000);
-  $('#headphones').delay(5000);
-  $('#watch').delay(5000);
+  $('#r').delay(1500);
+  $('#headphones').delay(1500);
+  $('#watch').delay(1500);
 
 
 
-  $('#pen').delay(5000);
-  $('#glasses').delay(5000);
-  $('#a').delay(5000);
+  $('#pen').delay(1500);
+  $('#glasses').delay(1500);
+  $('#a').delay(1500);
 
 
-  $('#coffee').delay(5000);
+  $('#coffee').delay(1500);
 
-  $('#c').delay(5000);
-  $('#computer').delay(5000);
+  $('#c').delay(1500);
+  $('#computer').delay(1500);
 
-  $('#p').delay(5000);
-  $('#phone').delay(5000);
+  $('#p').delay(1500);
+  $('#phone').delay(1500);
 
   $('#r').fadeIn(5500)
   $('#headphones').fadeIn(5300)

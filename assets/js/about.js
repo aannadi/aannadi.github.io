@@ -19,7 +19,7 @@ $(document).ready(function()  {
     $("#circle1").delay(200);
     $("#circle2").delay(800);
     $(".bubble").delay(1400);
-    let background = "I’m a second year Electrical Engineering and Computer Science student at  \
+    let background = "I’m a third year Electrical Engineering and Computer Science student at  \
                       UC Berkeley. I’ve had the honor of living in the Bay Area my whole life and \
                       am excited to pursue my higher education at Berkeley. I have always loved to \
                       learn and the environment here at Berkeley is great for fostering that passion!"
@@ -58,11 +58,9 @@ $(document).ready(function()  {
     $("#circle2").delay(800);
     $(".bubble").delay(1400);
     let hobbies = "I’m a caring person and a good friend. I always try to help out where \
-                  I can and am a good listener. I would say my one big drawback is \
-                  at times I can be a little standoffish and snarky but those occasions are \
-                  rare! More often than not, you’ll find me smiling and laughing."
+                  I can and am a good listener. More often than not, you’ll find me smiling and laughing."
     $(".text").text(hobbies);
-    $(".text").css("top", "34%");
+    $(".text").css("top", "40%");
     $("#circle1").fadeIn(600);
     $("#circle2").fadeIn(600);
     $(".bubble").fadeIn(600);

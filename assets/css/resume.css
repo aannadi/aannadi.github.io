@@ -195,6 +195,14 @@ hr {
   filter: grayscale(100%);
 }
 
+.apple {
+  position: absolute;
+  right: 5%;
+  top: -3%;
+  transform: scale(.8);
+  filter: grayscale(100%);
+}
+
 #circleHolder {
   position: relative;
   margin-top: 15%;
