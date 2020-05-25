@@ -262,3 +262,8 @@ left: 10px;
     width: 40px;
     height: auto;
 }
+
+.ray_link {
+  text-decoration: underline;
+  font-size: 15px;
+}
